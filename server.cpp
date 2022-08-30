@@ -28,7 +28,7 @@ bool Serve(int client_socket)
 int main(int argc,char* const argv[])
 {
   const char* const socket_name = argv[1];
-  ing socket_fd;
+  int socket_fd;
   struct sockaddr_un name;
   bool serving = true;
   //创建套接字
