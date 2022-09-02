@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(int a,int b){
-    return a+b;
+int main(){
+    cout<<"Hello"<<endl;
+    sleep(10);
 }
